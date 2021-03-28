@@ -67,25 +67,27 @@ h2-console est activé.
 
 Cet exemple permet de faire des recherches sur les animaux dont le nom commence, termine, contient ou ne contient pas un texte.
 
-Leurs noms sont  fido, titi, panpan, felix, riri, fifi, loulou, donald, mickey;
+La liste des noms est :
+
+snoopy, tina, sam, sally, ulysse, chipie, rocky, roxane, max, princesse, lady, oscar, ugo, tequila, simba, ramses, teddy, titus, maya, tania, samy, filou, tomy, lucky, junior, socrate, vanille, gribouille, choupette, nina, sandy, saphir, tara, lola, romeo, roxy, stella, prince, belle, tom, tyson, pacha, reglisse, scotty, rusty, caramel, roxanne, benji, milou, paco, sacha, tommy, caline, oliver, sultan, theo, rex, scott, nougat, roucky, samba, tess, théo, luna, nicky, praline, titeuf, topaze, enzo, kenzo, noisette, ruby, saxo, oceane, sweety, tessy, titan, voyou, charly, leo, spike, stan, suzy, tango, léo, perle, prisca, sissi, whisky, dolly, popeye, rita, taz, titi, fanny, felix, nala, roméo, toby, twist.
 
 Lancez le serveur via votre ide ou le shell avec maven.
 
 ### Commence par:
 
-http://localhost:8080/animal?name_starts_with=fi&page=0&size=10
+http://localhost:8080/animal?name_starts_with=r&page=0&size=10
 
 ### Termine par:
 
-http://localhost:8080/animal?name_ends_with=ix&page=0&size=10
+http://localhost:8080/animal?name_ends_with=na&page=0&size=10
 
 ### Contient:
 
-http://localhost:8080/animal?name_contains=na&page=0&size=10
+http://localhost:8080/animal?name_contains=a&page=0&size=10
 
 ### Ne contient pas:
 
-http://localhost:8080/animal?name_contains_not=na&page=0&size=10
+http://localhost:8080/animal?name_contains_not=y&page=0&size=10
 
 
 ## Conclusion
