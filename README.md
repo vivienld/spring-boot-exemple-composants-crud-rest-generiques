@@ -75,19 +75,19 @@ Lancez le serveur via votre ide ou le shell avec maven.
 
 ### Commence par:
 
-http://localhost:8080/animal?name_starts_with=r&page=0&size=10
+http://localhost:8080/animal?name_starts_with=r&page=0&size=25
 
 ### Termine par:
 
-http://localhost:8080/animal?name_ends_with=na&page=0&size=10
+http://localhost:8080/animal?name_ends_with=na&page=0&size=25
 
 ### Contient:
 
-http://localhost:8080/animal?name_contains=a&page=0&size=10
+http://localhost:8080/animal?name_contains=a&page=0&size=25
 
 ### Ne contient pas:
 
-http://localhost:8080/animal?name_contains_not=y&page=0&size=10
+http://localhost:8080/animal?name_contains_not=y&page=0&size=25
 
 
 ## Conclusion
