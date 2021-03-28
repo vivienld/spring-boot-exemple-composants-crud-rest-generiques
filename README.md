@@ -67,6 +67,8 @@ h2-console est activé.
 
 Cet exemple permet de faire des recherches sur les animaux dont le nom commence, termine, contient ou ne contient pas un texte.
 
+Leurs noms sont  fido, titi, panpan, felix, riri, fifi, loulou, donald, mickey;
+
 Lancez le serveur via votre ide ou le shell avec maven.
 
 ### Commence par:
