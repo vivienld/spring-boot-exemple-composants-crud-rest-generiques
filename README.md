@@ -65,7 +65,7 @@ h2-console est activé.
 
 ## Exemple de recherche REST
 
-Cet exemple permet de faire des recherche sur les animaux dont le nom commence, termine, contient ou ne contient pas un texte.
+Cet exemple permet de faire des recherches sur les animaux dont le nom commence, termine, contient ou ne contient pas un texte.
 
 Lancez le serveur via votre ide ou le shell avec maven.
 
@@ -92,4 +92,4 @@ La généricité et l'héritage multiple d'interfaces permettent de réutiliser 
 
 C'est un gain de temps non négligeable lors du développement d'une application.
 
-N'hésitez pas à ajouter des données dans la base ou produitre votre propre paquet réutilisable sur une autre propriété d'entité ;)
+N'hésitez pas à ajouter des données dans la base ou produire votre propre paquet réutilisable sur une autre propriété d'entité ;)
