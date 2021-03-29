@@ -1,4 +1,4 @@
-# Exemple d'utilisation de l'héritage multiple et de la généricité au sein de Spring Boot
+# Exemple d'utilisation de l'héritage multiple d'interfaces et de la généricité au sein de Spring Boot
 
 ## Mise en place d'un package prêt à l'emploi afin d'effectuer des opérations de recherche REST sur la propriété connue d'une entité inconnue dans Spring Boot
 
