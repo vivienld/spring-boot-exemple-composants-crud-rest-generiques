@@ -46,7 +46,7 @@ Dans notre cas, Les interfaces de ce projet disposent de méthodes génériques.
 
 ## H2
 
-Une base de donnée h2 est produite et un jeu de données est produit au lancement du projet dans le fichier de configuration `PostConstructionActions`.
+Une base de donnée h2 et un jeu de données sont produits au lancement du projet dans le fichier de configuration `PostConstructionActions`.
 
 Le fichier `applications.properties` est le suivant:
 
