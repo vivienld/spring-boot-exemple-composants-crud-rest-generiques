@@ -1,6 +1,6 @@
 # Exemple d'utilisation de l'héritage multiple d'interfaces et de la généricité au sein de Spring Boot
 
-## Mise en place d'un package prêt à l'emploi afin d'effectuer des opérations de recherche REST sur la propriété connue d'une entité inconnue dans Spring Boot
+## Mise en place d'un package de composants réutilisables afin d'effectuer des opérations de recherche sur la propriété connue d'une entité inconnue dans Spring Boot
 
 Les fichiers présents dans ce dépôt sont un exemple de la façon dont on peut implémenter un `contrôleur`, un `service` et un `repository` afin d'effectuer des opérations prêtes à l'emploi sur une entité dont on ne connait pas le type mais qui possèderait une propriété `name`.
 
