@@ -15,7 +15,7 @@ public interface HasNameEntityController extends EntityController {
 
     /**
      * Lie la route "/" avec la méthode "GET" vers le service responsable de chercher les entités
-     * dont le nom commence par le texte donné dans un interval de produit par un objet de type "Pageable".
+     * dont le nom commence par le texte donné dans un interval produit par un objet de type "Pageable".
      * Si l'on cherche 25 entités par page alors on note pour les 25 premières entités page=0 et size=25
      * @param name_starts_with le paramètre de type "String" qui permet de chercher les entités dont le nom commence par sa valeur
      * @param page la page dans laquelle on cherche les entités
@@ -31,7 +31,7 @@ public interface HasNameEntityController extends EntityController {
 
     /**
      * Lie la route "/" avec la méthode "GET" vers le service responsable de chercher les entités
-     * dont le nom contient le texte donné dans un interval de produit par un objet de type "Pageable".
+     * dont le nom contient le texte donné dans un interval produit par un objet de type "Pageable".
      * Si l'on cherche 25 entités par page alors on note pour les 25 premières entités page=0 et size=25
      * @param name_contains le paramètre de type "String" qui permet de chercher les entités dont le nom contient sa valeur
      * @param page la page dans laquelle on cherche les entités
@@ -47,7 +47,7 @@ public interface HasNameEntityController extends EntityController {
 
     /**
      * Lie la route "/" avec la méthode "GET" vers le service responsable de chercher les entités
-     * dont le nom termine par le texte donné dans un interval de produit par un objet de type "Pageable".
+     * dont le nom termine par le texte donné dans un interval produit par un objet de type "Pageable".
      * Si l'on cherche 25 entités par page alors on note pour les 25 premières entités page=0 et size=25
      * @param name_ends_with le paramètre de type "String" qui permet de chercher les entités dont le nom termine par sa valeur
      * @param page la page dans laquelle on cherche les entités
@@ -63,7 +63,7 @@ public interface HasNameEntityController extends EntityController {
 
     /**
      * Lie la route "/" avec la méthode "GET" vers le service responsable de chercher les entités
-     * dont le nom ne contient pas le texte donné dans un interval de produit par un objet de type "Pageable".
+     * dont le nom ne contient pas le texte donné dans un interval produit par un objet de type "Pageable".
      * Si l'on cherche 25 entités par page alors on note pour les 25 premières entités page=0 et size=25
      * @param name_contains_not le paramètre de type "String" qui permet de chercher les entités dont le nom ne contient pas sa valeur
      * @param page la page dans laquelle on cherche les entités
